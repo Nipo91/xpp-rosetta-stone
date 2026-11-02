@@ -1,7 +1,7 @@
 # Git in der Konsole
 
 > **Pad-Block „Git in der Konsole“, Familie Werkzeug**
-> Jede Zeile des Blocks, so wie sie auf dem Mauspad steht, mit zwei bis drei Sätzen dazu und einem kurzen Beispiel, wo es hilft. Lesezeit etwa 3 Minuten. Das Pad: X++ Mauspad.
+> Jede Zeile des Blocks, so wie sie auf dem Mauspad steht, mit zwei bis drei Sätzen dazu und einem kurzen Beispiel, wo es hilft. Lesezeit etwa 2 Minuten. Das Pad: X++ Mauspad.
 > Fußzeile des Blocks: *Terminal Ctrl+Ö · Git Changes Ctrl+G · → = danach · Icon & Co. stehen nur im XML – .xml mit anhängen*
 
 ### `git status`
@@ -63,30 +63,6 @@ Lädt den Branch hoch; -u merkt sich die Verbindung, danach reicht git push. Der
 **Auf dem Pad:** Commit übernehmen (Release-Branch)
 
 Übernimmt einen einzelnen Commit in den aktuellen Branch – der Weg von main in den Release-Branch. Den Hash zeigt git log.
-
-### `git diff HEAD -- "*.xpp" | Set-Clipboard`
-
-**Auf dem Pad:** Diff vor dem Commit in die Zwischenablage, nur X++
-
-Die Änderungen des Arbeitsstands gegen den letzten Commit – dasselbe, was Git Changes in Visual Studio zeigt – als Diff in die Zwischenablage, nur die .xpp-Dateien, ohne XML-Metadaten. Grundlage für die Entwicklerdoku vor dem Commit. Reine Eigenschaftsänderungen (z. B. ein Icon) stehen nur im XML: die betroffene .xml dann gezielt anhängen.
-
-### `git diff origin/main...HEAD -- "*.xpp" | Set-Clipboard`
-
-**Auf dem Pad:** nach dem Commit: ganzer Branch gegen main
-
-Nach dem Commit: der ganze Branch gegen main (drei Punkte = seit dem gemeinsamen Ursprung), wieder nur X++ und direkt in die Zwischenablage – der Diff für den Pull Request und die Entwicklerdoku.
-
-### `git log origin/main..HEAD --oneline | Set-Clipboard`
-
-**Auf dem Pad:** Commit-Texte des Branches
-
-Die Commit-Texte des Branches, die noch nicht auf main sind, eine Zeile je Commit, in die Zwischenablage – als Gerüst für die Beschreibung des Pull Requests.
-
-### `git diff --staged -- "*.xpp" | Set-Clipboard`
-
-**Auf dem Pad:** alles Gestagte in die Zwischenablage (Ctrl+V in Copilot)
-
-Zeigt die ungestagten Änderungen; --staged die, die schon im nächsten Commit sind.
 
 ## Verknüpft
 

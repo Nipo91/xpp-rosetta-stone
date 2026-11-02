@@ -1,37 +1,8 @@
 # Datentypen
 
 > **Pad-Block „Datentypen“, Familie Lesen**
-> Jede Zeile des Blocks, so wie sie auf dem Mauspad steht, mit zwei bis drei Sätzen dazu und einem kurzen Beispiel, wo es hilft. Lesezeit etwa 3 Minuten. Das Pad: X++ Mauspad.
+> Jede Zeile des Blocks, so wie sie auf dem Mauspad steht, mit zwei bis drei Sätzen dazu und einem kurzen Beispiel, wo es hilft. Lesezeit etwa 2 Minuten. Das Pad: X++ Mauspad.
 > Fußzeile des Blocks: *Leer ist: 0, "", 1\1\1900, false, NoYes::No – Prüfung mit if (!x).*
-
-### `int / int64`
-
-**Auf dem Pad:** Ganze Zahl; RecId ist int64, 0 = kein Datensatz
-
-Ganze Zahlen; int64 für große Werte und für RecId. Eine RecId von 0 heißt: kein Datensatz – if (t.RecId) ist die übliche Prüfung.
-
-### `real`
-
-**Auf dem Pad:** Dezimalzahl; / liefert real, div und mod bleiben int
-
-Dezimalzahl. Division mit / liefert real; div und mod sind ganzzahlige Division und Rest.
-
-### `str / str 10`
-
-**Auf dem Pad:** Text, leer = ""; Länge optional. Verketten mit +, strFmt
-
-Text; str 10 begrenzt auf zehn Zeichen. Leerer Text ist "", es gibt kein null. Verketten mit +, Formatieren mit strFmt.
-
-### `boolean`
-
-**Auf dem Pad:** true / false; jeder Wert ist als Bedingung nutzbar (0, "", leer = false)
-
-true oder false. In X++ zählt jeder Wert als Bedingung: 0, "" und ein leerer Puffer sind false, alles andere true – darum liest man oft if (custTable) statt if (custTable.RecId != 0).
-
-```xpp
-if (!order)                 // leerer Puffer = false
-    throw error("Kein Auftrag.");
-```
 
 ### `date / utcDateTime`
 

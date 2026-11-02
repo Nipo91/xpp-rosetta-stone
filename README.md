@@ -1,7 +1,7 @@
 # X++ Mauspad – Begleiter (Rosetta Stone for X++)
 
 > **Wozu**
-> Das Mauspad ist die Kurzform; hier steht zu jedem Block eine Notiz, die jede Zeile in ein bis zwei Leseminuten erklärt – wann das System eine Methode ruft, was man dort schreibt, mit einem kleinen X++-Beispiel. Die Ordner sind die fünf Farbfamilien des Pads. Stand: Entwurf 7A vom 2026-10-18. Erzeugt aus `.claude/scripts/mauspad/begleiter.py`; Texte in `begleiter_texte.py` – bei Änderungen am Pad neu laufen lassen.
+> Das Mauspad ist die Kurzform; hier steht zu jedem Block eine Notiz, die jede Zeile in ein bis zwei Leseminuten erklärt – wann das System eine Methode ruft, was man dort schreibt, mit einem kleinen X++-Beispiel. Die Ordner sind die fünf Farbfamilien des Pads. Stand: Entwurf 7A vom 2026-11-02. Erzeugt aus `.claude/scripts/mauspad/begleiter.py`; Texte in `begleiter_texte.py` – bei Änderungen am Pad neu laufen lassen.
 
 > **Lesereihenfolge für den Einstieg**
 > 1. System ruft: Form, Data Source, Tabelle, Feld und Control – das ist der Code, den du täglich liest.
@@ -39,12 +39,12 @@
 - [Datenzugriff lesen](5%20Lesen/Datenzugriff%20lesen.md) (9 Zeilen)
 - [Syntax lesen](5%20Lesen/Syntax%20lesen.md) (6 Zeilen)
 - [X++ lesen: was anders ist als in C#](5%20Lesen/X++%20lesen%20-%20was%20anders%20ist%20als%20in%20C.md) (6 Zeilen)
-- [Datentypen](5%20Lesen/Datentypen.md) (10 Zeilen)
+- [Datentypen](5%20Lesen/Datentypen.md) (6 Zeilen)
 - [Attribute über Methoden und Klassen](5%20Lesen/Attribute%20über%20Methoden%20und%20Klassen.md) (5 Zeilen)
 
 ## Werkzeug
 
 - [Edge und Copilot: Tasten](6%20Werkzeug/Edge%20und%20Copilot%20-%20Tasten.md) (6 Zeilen)
-- [Git in der Konsole](6%20Werkzeug/Git%20in%20der%20Konsole.md) (14 Zeilen)
+- [Git in der Konsole](6%20Werkzeug/Git%20in%20der%20Konsole.md) (10 Zeilen)
 - [Visual Studio: Tasten](6%20Werkzeug/Visual%20Studio%20-%20Tasten.md) (15 Zeilen)
 
