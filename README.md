@@ -1,7 +1,7 @@
 # X++ Mauspad – Begleiter (Rosetta Stone for X++)
 
 > **Wozu**
-> Das Mauspad ist die Kurzform; hier steht zu jedem Block eine Notiz, die jede Zeile in ein bis zwei Leseminuten erklärt – wann das System eine Methode ruft, was man dort schreibt, mit einem kleinen X++-Beispiel. Die Ordner sind die fünf Farbfamilien des Pads. Stand: Entwurf 7A vom 2026-11-02. Erzeugt aus `.claude/scripts/mauspad/begleiter.py`; Texte in `begleiter_texte.py` – bei Änderungen am Pad neu laufen lassen.
+> Das Mauspad ist die Kurzform; hier steht zu jedem Block eine Notiz, die jede Zeile in ein bis zwei Leseminuten erklärt – wann das System eine Methode ruft, was man dort schreibt, mit einem kleinen X++-Beispiel. Die Ordner sind die fünf Farbfamilien des Pads. Stand: Entwurf 7A vom 2026-11-03. Erzeugt aus `.claude/scripts/mauspad/begleiter.py`; Texte in `begleiter_texte.py` – bei Änderungen am Pad neu laufen lassen.
 
 > **Lesereihenfolge für den Einstieg**
 > 1. System ruft: Form, Data Source, Tabelle, Feld und Control – das ist der Code, den du täglich liest.
